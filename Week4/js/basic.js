@@ -9,8 +9,7 @@ async function searchShow() {
     const showName = document.getElementById("input-show").value
     const showPromise = await fetch(showUrl + showName)
     const showJSON = await showPromise.json()
-    console.log(showJSON)
-    
+
     const divContainer = document.querySelector(".show-container")
     divContainer.innerHTML = ""
 
