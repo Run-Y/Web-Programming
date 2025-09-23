@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+    <script src = "js/basic.js" defer></script>
+</head>
+<body>
+    <table id = "table">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Admin</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Run Zhang</td>
+                <td>Run.Zhang@student.lut.fi</td>
+                <td>-</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>test@email.com</td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>example@email.com</td>
+                <td>-</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <form action="" method = "post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="input-username"><br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="input-email"><br>
+        <label for="admin">Admin:</label>
+        <input type="checkbox" name="admin" id="input-admin">
+    </form>
+
+    <button id = "submit-data">Submit</button>
+
+    <input type="file" id="input-image" name="'input-image" accept="image/">
+
+    <br>
+
+    <button id = "empty-table">Empty Table</button>
+    
+</body>
+</html>
